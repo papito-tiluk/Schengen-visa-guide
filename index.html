@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Schengen Visa Guide for Filipinos</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f4f6f8;--card:#fff;--ink:#14243a;--mut:#5a6b7f;--line:#dbe2e9;--acc:#1d4ed8;--accbg:#e6edff;--ok:#12805c;--okbg:#e2f5ee;--warn:#b4531a;--warnbg:#fdeee0;--stamp:#c0392b;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1724;--card:#16222f;--ink:#e8eef5;--mut:#9fb0c3;--line:#2a3a4c;--acc:#7aa2ff;--accbg:#1b2c52;--ok:#4cc79b;--okbg:#10332a;--warn:#f0a060;--warnbg:#3a2616;--stamp:#ee7a6c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1724;--card:#16222f;--ink:#e8eef5;--mut:#9fb0c3;--line:#2a3a4c;--acc:#7aa2ff;--accbg:#1b2c52;--ok:#4cc79b;--okbg:#10332a;--warn:#f0a060;--warnbg:#3a2616;--stamp:#ee7a6c;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","Source Sans 3",system-ui,sans-serif;line-height:1.2;margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+header{padding:22px 18px 8px;max-width:900px;margin:0 auto}
+.stamp{display:inline-block;border:2px solid var(--stamp);color:var(--stamp);border-radius:6px;padding:2px 10px;font:700 13px "Bricolage Grotesque",sans-serif;transform:rotate(-3deg);margin-bottom:10px}
+h1{font-size:clamp(26px,6vw,38px)}
+header p{color:var(--mut);margin:8px 0 0;max-width:60ch}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line);margin-top:12px}
+nav div{display:flex;gap:6px;overflow-x:auto;padding:8px 14px;max-width:900px;margin:0 auto;scrollbar-width:none}
+nav button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px 14px;border-radius:999px;font:600 14px inherit;font-family:inherit;cursor:pointer}
+nav button[aria-selected=true]{background:var(--acc);border-color:var(--acc);color:#fff}
+:root[data-theme=dark] nav button[aria-selected=true],:root:not([data-theme=light]) nav button[aria-selected=true]{color:#0b1220}
+@media (prefers-color-scheme:light){nav button[aria-selected=true]{color:#fff}}
+main{max-width:900px;margin:0 auto;padding:16px 14px 60px}
+section{display:none}section.on{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:12px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.tile{cursor:pointer;text-align:left;font:inherit;color:inherit}
+.tile:hover{border-color:var(--acc)}
+.tile b{font-family:"Bricolage Grotesque",sans-serif;display:block;font-size:18px;margin-bottom:4px}
+.tile span{color:var(--mut);font-size:15px}
+.step{border-left:3px solid var(--acc);margin-left:10px;padding:0 0 18px 18px;position:relative}
+.step::before{content:attr(data-n);position:absolute;left:-15px;top:0;width:27px;height:27px;border-radius:50%;background:var(--acc);color:#fff;font:700 13px/27px "Bricolage Grotesque",sans-serif;text-align:center}
+.step:last-child{border-color:transparent}
+.step h3{font-size:18px;margin-bottom:4px}.step p{margin:0;color:var(--mut)}
+.step .t{display:inline-block;background:var(--accbg);color:var(--acc);font-size:13px;font-weight:600;border-radius:6px;padding:1px 8px;margin-top:6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.chips button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
+.chips button.on{background:var(--accbg);border-color:var(--acc);color:var(--acc);font-weight:600}
+label.chk{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);cursor:pointer}
+label.chk:last-child{border:0}
+label.chk input{width:20px;height:20px;margin-top:2px;flex:none;accent-color:var(--acc)}
+label.chk small{display:block;color:var(--mut)}
+.bar{height:8px;background:var(--line);border-radius:9px;overflow:hidden;margin:6px 0 12px}
+.bar i{display:block;height:100%;background:var(--ok);width:0;transition:width .3s}
+.two{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.do{border-left:4px solid var(--ok)}.dont{border-left:4px solid var(--warn)}
+ul.l{margin:8px 0 0;padding-left:20px}ul.l li{margin-bottom:6px}
+.note{background:var(--warnbg);color:var(--ink);border-radius:10px;padding:10px 12px;font-size:14px;margin:12px 0}
+input,select,textarea{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.f{margin-bottom:12px}.f>label{display:block;font-weight:600;font-size:14px;margin-bottom:4px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btn{background:var(--acc);color:#fff;border:0;border-radius:10px;padding:11px 18px;font:600 15px inherit;font-family:inherit;cursor:pointer}
+:root[data-theme=dark] .btn,:root:not([data-theme=light]) .btn{color:#0b1220}
+@media (prefers-color-scheme:light){.btn{color:#fff}}
+.res{background:var(--okbg);border-radius:12px;padding:14px;margin-top:6px}
+.res big{font:700 28px "Bricolage Grotesque",sans-serif;color:var(--ok);display:block}
+.res table{width:100%;font-size:14px;margin-top:8px;border-collapse:collapse}
+.res td{padding:3px 0}.res td:last-child{text-align:right}
+details{border-bottom:1px solid var(--line);padding:10px 0}
+summary{font-weight:600;cursor:pointer}
+details p{margin:8px 0 0;color:var(--mut)}
+.badge{font-size:12px;font-weight:700;border-radius:6px;padding:2px 8px}
+.b-ok{background:var(--okbg);color:var(--ok)}.b-no{background:var(--warnbg);color:var(--warn)}
+.foot{color:var(--mut);font-size:13px;text-align:center;margin-top:24px}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+</style>
+</head>
+<body>
+<header>
+  <span class="stamp">PH → SCHENGEN</span>
+  <h1>Schengen visa guide for Filipino applicants</h1>
+  <p>Every step, document, tip and cost in one place, so you can apply with confidence.</p>
+</header>
+<nav><div role="tablist" id="tabs"></div></nav>
+<main>
+<section id="home"></section>
+<section id="process"></section>
+<section id="reqs"></section>
+<section id="tips"></section>
+<section id="budget"></section>
+<section id="stories"></section>
+<section id="faq"></section><section id="countries"></section><section id="ready"></section><section id="docs"></section><section id="refused"></section><section id="ask"></section>
+<p class="foot">Guide only, not legal advice. Rules and fees change and differ by embassy. Always confirm on the official website of the embassy or visa center of your main destination before you apply.</p>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const TABS=[["home","Start here"],["process","Step by step"],["reqs","Requirements"],["tips","Approval tips"],["budget","Money & budget"],["countries","Best time & countries"],["ready","Readiness quiz"],["docs","Sample letters"],["stories","Experiences"],["refused","If refused"],["insurance","Travel insurance"],["faq","Questions"]];
+$("#tabs").innerHTML=TABS.map(t=>`<button role="tab" data-t="${t[0]}">${t[1]}</button>`).join("");
+function go(id){document.querySelectorAll("section").forEach(s=>s.classList.toggle("on",s.id===id));
+document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===id));
+const b=document.querySelector(`#tabs [data-t=${id}]`);b&&b.scrollIntoView({inline:"center",block:"nearest"});window.scrollTo(0,0)}
+$("#tabs").onclick=e=>{const b=e.target.closest("button");if(b)go(b.dataset.t)};
+
+// HOME
+$("#home").innerHTML=`<div class="card"><h2>Where do you want to begin?</h2><p style="color:var(--mut);margin:6px 0 0">Pick what you need right now. You can come back to any section anytime.</p></div>
+<div class="grid">
+${[["process","How does it work?","The full journey from choosing a country to getting your passport back."],
+["reqs","What documents do I need?","A checklist for employed, self-employed, students and dependents. Tick items off as you go."],
+["tips","How do I improve my chances?","What officers look for, common refusal reasons, and mistakes to avoid."],
+["budget","How much money do I need?","Estimate your trip cost and the bank balance to show."],
+["stories","What happened to others?","Read and share real application experiences."],
+["faq","I have a specific question","Search quick answers to common questions."]].map(t=>`<button class="card tile" data-go="${t[0]}"><b>${t[1]}</b><span>${t[2]}</span></button>`).join("")}</div>
+<div class="card"><h3>Quick facts</h3><ul class="l">
+<li>Filipinos need a visa for short stays (up to 90 days in any 180 days).</li>
+<li>Apply to the country where you will spend the most days, or your first entry if days are equal.</li>
+<li>You can apply up to 6 months before travel and no later than 15 days before.</li>
+<li>The standard fee is €90 for adults. The visa center charges a separate service fee.</li>
+<li>Standard processing is around 15 calendar days, but it can take up to 45 days.</li></ul></div>`;
+$("#home").onclick=e=>{const b=e.target.closest("[data-go]");if(b)go(b.dataset.go)};
+
+// PROCESS
+const STEPS=[
+["Pick your main destination","Apply to the Schengen country where you will stay longest. If you split time equally, apply to the country you enter first. Apply through that country's embassy or its official visa center (VFS Global, TLS Contact or BLS).","Plan 2 to 4 months ahead"],
+["Gather your documents","Prepare passport, photos, proof of income and savings, travel insurance, itinerary and civil documents. Use the Requirements tab to track each one.","1 to 3 weeks"],
+["Book your appointment","Create an account on the visa center or embassy portal and book a slot. Slots in peak season fill up fast, so check often for cancellations. Book flights and hotels as refundable reservations only.","Book as early as you can"],
+["Fill in the form and pay","Complete the Schengen application form honestly and consistently with your documents. Pay the visa fee (€90 adults, €45 for ages 6 to 11, free under 6) plus the visa center service fee.","30 to 60 minutes"],
+["Attend your appointment","Bring originals and photocopies. Your fingerprints and photo are taken. Answer questions briefly and truthfully about your trip and your work or study.","About 30 to 60 minutes"],
+["Wait for the decision","Track your application online. Processing is usually 15 calendar days, and can take up to 30 or 45 in some cases. Do not buy non-refundable tickets until you have the visa.","15 to 45 days"],
+["Collect your passport","Check the visa sticker right away: name, dates, number of entries and days allowed. Report any error to the center immediately.","1 day"],
+["Travel and enter","Carry your return ticket, insurance, hotel booking, proof of funds and employment documents. Border officers may ask for them on arrival.","Day of travel"]];
+$("#process").innerHTML=`<div class="card"><h2>From start to approved visa</h2><p style="color:var(--mut);margin:6px 0 16px">Eight steps. Most people finish in 4 to 10 weeks.</p>
+${STEPS.map((s,i)=>`<div class="step" data-n="${i+1}"><h3>${s[0]}</h3><p>${s[1]}</p><span class="t">${s[2]}</span></div>`).join("")}</div>`;
+
+// REQUIREMENTS
+const COMMON=[
+["Passport","Valid at least 3 months after you leave the Schengen area, issued within the last 10 years, with 2 blank pages."],
+["Completed and signed application form","Print or save the form from the embassy or visa center website."],
+["2 recent passport photos","35x45 mm, white background, taken within the last 6 months."],
+["Travel insurance","Covers at least €30,000 for medical emergencies and repatriation, valid in all Schengen countries for your whole trip."],
+["Flight itinerary","Round trip reservation showing entry and exit dates. A reservation is enough at this stage."],
+["Accommodation proof","Hotel bookings for every night, or an invitation letter and host's documents if staying with someone."],
+["Day-by-day itinerary","A short plan of where you will be each day."],
+["Bank certificate and 3 to 6 months of statements","Should show regular activity and enough balance for your trip."],
+["PSA birth certificate","Recent copy on security paper."],
+["Previous visas","Photocopies of past Schengen or other visas, if any."],
+["Visa fee payment receipt","Keep the receipt for the embassy fee and the service fee."]];
+const EXTRA={
+emp:["Employed",[["Certificate of Employment (COE)","States position, salary, date hired and that you will return to work."],["Approved leave letter","Signed by your employer with exact leave dates."],["Latest 3 payslips","Should match deposits in your bank statements."],["ITR or BIR Form 2316","From the latest tax year."],["Company ID photocopy",""]]],
+biz:["Self-employed",[["DTI or SEC registration","Plus Mayor's permit and BIR registration."],["ITR for the last year","With proof of tax payments."],["Business bank statements","Shows regular income."],["Proof of business operation","Receipts, invoices, photos of your business or client contracts."]]],
+stu:["Student",[["Certificate of enrollment","Shows your school year and program."],["School ID photocopy",""],["School letter of approval to travel","If traveling during the term."],["Sponsor documents","Parent or sponsor's ITR, COE, bank certificate and an affidavit of support."],["PSA birth certificate showing parent names","Proves the relationship to your sponsor."]]],
+dep:["Unemployed / dependent",[["Sponsor's affidavit of support","Notarized, stating they will cover your expenses."],["Sponsor's COE, ITR and bank statements",""],["Proof of relationship","PSA birth or marriage certificate."],["Proof of ties to the Philippines","Property, family, or other reasons you will return."]]]};
+let prof=store.get("prof","emp"),done=store.get("done",{});
+function renderReqs(){
+const list=[...COMMON,...EXTRA[prof][1]];const n=list.filter(x=>done[prof+x[0]]).length;
+$("#reqs").innerHTML=`<div class="card"><h2>Your document checklist</h2><p style="color:var(--mut);margin:6px 0 10px">Choose your situation. Your progress is saved on this device.</p>
+<div class="chips">${Object.entries(EXTRA).map(([k,v])=>`<button data-p="${k}" class="${k===prof?"on":""}">${v[0]}</button>`).join("")}</div>
+<b>${n} of ${list.length} ready</b><div class="bar"><i style="width:${n/list.length*100}%"></i></div>
+${list.map(x=>`<label class="chk"><input type="checkbox" data-k="${prof+x[0]}" ${done[prof+x[0]]?"checked":""}><span>${x[0]}<small>${x[1]}</small></span></label>`).join("")}
+<div class="note">Requirements vary by embassy. Some ask for extra items such as a cover letter, proof of civil status, or a sponsor's passport copy. Check your destination's official list.</div></div>`}
+$("#reqs").onclick=e=>{const p=e.target.closest("[data-p]");if(p){prof=p.dataset.p;store.set("prof",prof);renderReqs()}};
+$("#reqs").onchange=e=>{if(e.target.dataset.k){done[e.target.dataset.k]=e.target.checked;store.set("done",done);renderReqs()}};
+renderReqs();
+
+// TIPS
+$("#tips").innerHTML=`<div class="card"><h2>Make your application easy to approve</h2><p style="color:var(--mut);margin:6px 0 0">Officers decide on two things: is the purpose of your trip clear, and are you likely to return home?</p></div>
+<div class="two"><div class="card do"><h3>Do</h3><ul class="l">
+<li>Show strong ties to the Philippines: stable job, business, family, property.</li>
+<li>Keep your bank statements steady, with regular deposits that match your payslips.</li>
+<li>Make sure dates match everywhere: leave letter, flights, hotels, insurance.</li>
+<li>Write a short cover letter explaining your trip purpose and itinerary.</li>
+<li>Apply early, ideally 4 to 8 weeks before travel.</li>
+<li>Use refundable bookings and keep copies of everything.</li>
+<li>Answer interview questions simply and honestly.</li></ul></div>
+<div class="card dont"><h3>Avoid</h3><ul class="l">
+<li>Large one-time deposits right before applying. Officers may doubt where the money came from.</li>
+<li>Fake or edited documents. This can lead to a refusal and a long ban.</li>
+<li>Inconsistent information between your form and your documents.</li>
+<li>Applying to a country that is not your main destination.</li>
+<li>Buying non-refundable tickets before approval.</li>
+<li>Using a travel agency that promises guaranteed approval.</li></ul></div></div>
+<div class="card"><h3>Common reasons for refusal</h3><ul class="l">
+<li>Purpose and conditions of the stay not justified.</li>
+<li>Not enough money for the trip or return.</li>
+<li>Doubts that you will leave the Schengen area before the visa ends.</li>
+<li>Invalid or missing travel insurance.</li>
+<li>Unreliable or unverifiable documents.</li>
+<li>Past overstay or earlier visa problems.</li></ul>
+<div class="note">If refused, the letter explains the reasons and how to appeal, including the deadline. Read it carefully. You can also reapply with stronger documents that address the stated reasons.</div></div>
+<div class="card"><h3>First-time traveler?</h3><p style="margin:6px 0 0;color:var(--mut)">A short, realistic trip to one or two countries is easier to justify than a long multi-country tour. Your first visa often sets the history for future applications.</p></div>`;
+
+// BUDGET
+const C={"Germany":[50],"France":[65],"Spain":[100],"Italy":[60],"Netherlands":[55],"Austria":[55],"Switzerland":[100],"Greece":[50],"Portugal":[60],"Czechia":[45],"Other Schengen country":[60]};
+$("#budget").innerHTML=`<div class="card"><h2>How much money should you have?</h2><p style="color:var(--mut);margin:6px 0 12px">There is no single official amount. Embassies look at your trip length, destination costs and whether your funds look genuine. Use this calculator to plan a safe amount.</p>
+<div class="f"><label>Main destination</label><select id="bc">${Object.keys(C).map(k=>`<option>${k}</option>`).join("")}</select></div>
+<div class="row"><div class="f"><label>Days of stay</label><input id="bd" type="number" min="1" max="90" value="10"></div><div class="f"><label>Travelers</label><input id="bt" type="number" min="1" max="10" value="1"></div></div>
+<div class="row"><div class="f"><label>Round-trip flight per person (PHP)</label><input id="bf" type="number" value="55000"></div><div class="f"><label>Insurance per person (PHP)</label><input id="bi" type="number" value="1500"></div></div>
+<div class="row"><div class="f"><label>Is your hotel already booked?</label><select id="bh"><option value="1">Yes, all nights</option><option value="0">No, not yet</option></select></div><div class="f"><label>PHP per 1 EUR (check today's rate)</label><input id="br" type="number" value="70"></div></div>
+<button class="btn" id="bgo">Calculate</button><div id="bres"></div></div>
+<div class="card"><h3>Money tips</h3><ul class="l">
+<li>Aim for a balance at least 1.5 times your estimated trip cost. A bigger cushion looks stronger.</li>
+<li>Keep the money in your account for at least 3 to 6 months. Savings built over time are more convincing than a sudden deposit.</li>
+<li>Get a bank certificate and statements with the bank's stamp or signature.</li>
+<li>If a sponsor pays, include their bank statements, income proof, and a notarized affidavit of support.</li>
+<li>Compare your balance with your salary. A balance far above your income history can raise questions.</li>
+<li>Compare travel insurance online. Basic Schengen policies often cost around PHP 1,000 to 2,500 for a short trip.</li>
+<li>Book refundable flights and hotels and wait to pay in full until your visa is approved.</li></ul>
+<div class="note">Every figure here is an editable estimate, not an official or quoted price. Daily spending amounts, flight cost, insurance cost and the visa center service fee are my rough planning assumptions, not official embassy minimums, and some countries require more. The exchange rate is a mid-market reference of about 70 PHP per EUR, so check your bank's rate, which is usually a bit worse. Get real insurance quotes and the current service fee from the visa center before you finalize your budget.</div></div>`;
+$("#bgo").onclick=()=>{const g=id=>+$("#"+id).value||0,c=$("#bc").value,d=g("bd"),t=g("bt"),r=g("br"),daily=C[c][0],pre=$("#bh").value==="1";
+const stay=daily*d*t*r*(pre?0.6:1),fl=g("bf")*t,ins=g("bi")*t,vf=(90*r+1500)*t,cost=stay+fl+ins+vf,rec=cost*1.5;
+const f=x=>"PHP "+Math.round(x).toLocaleString("en-PH");
+$("#bres").innerHTML=`<div class="res">Suggested balance to show<big>${f(rec)}</big><table>
+<tr><td>Daily spending (${d} days${pre?", hotel prepaid":""})</td><td>${f(stay)}</td></tr><tr><td>Flights</td><td>${f(fl)}</td></tr><tr><td>Insurance</td><td>${f(ins)}</td></tr><tr><td>Visa fee + service fee (est.)</td><td>${f(vf)}</td></tr>
+<tr><td><b>Estimated trip cost</b></td><td><b>${f(cost)}</b></td></tr></table>
+<p style="margin:10px 0 0;font-size:14px">Suggested balance is estimated trip cost × 1.5 as a safety cushion.</p></div>`};
+
+// STORIES
+let stories=store.get("stories",[]),filt="all";
+function renderStories(){const L=stories.filter(s=>filt==="all"||s.res===filt);
+$("#stories").innerHTML=`<div class="card"><h2>Experiences from other applicants</h2><p style="color:var(--mut);margin:6px 0 0">Real stories help you know what to expect. Share yours to help the next person. Please do not post personal data like passport numbers.</p></div>
+<div class="chips">${[["all","All"],["Approved","Approved"],["Refused","Refused"]].map(x=>`<button data-f="${x[0]}" class="${filt===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>
+${L.length?L.map(s=>`<div class="card"><span class="badge ${s.res==="Approved"?"b-ok":"b-no"}">${s.res}</span> <b>${esc(s.ctry)}</b> · ${esc(s.days)} days processing · ${esc(s.prof)}<p style="margin:8px 0 0">${esc(s.txt)}</p><small style="color:var(--mut)">${esc(s.name||"Anonymous")}</small></div>`).join(""):`<div class="card" style="text-align:center;color:var(--mut)">No stories here yet. Be the first to share yours below.</div>`}
+<div class="card"><h3>Share your experience</h3>
+<div class="row"><div class="f"><label>Country applied to</label><input id="sc" placeholder="e.g. France"></div><div class="f"><label>Result</label><select id="sr"><option>Approved</option><option>Refused</option></select></div></div>
+<div class="row"><div class="f"><label>Days to get result</label><input id="sd" type="number" placeholder="15"></div><div class="f"><label>Your situation</label><select id="sp"><option>Employed</option><option>Self-employed</option><option>Student</option><option>Dependent</option></select></div></div>
+<div class="f"><label>Your name (optional)</label><input id="sn" placeholder="Anonymous"></div>
+<div class="f"><label>What helped or hurt your application?</label><textarea id="st" rows="4"></textarea></div>
+<button class="btn" id="sgo">Post my story</button><p id="smsg" style="color:var(--ok)"></p></div>`}
+function esc(s){return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+$("#stories").onclick=e=>{const b=e.target.closest("[data-f]");if(b){filt=b.dataset.f;renderStories();return}
+if(e.target.id==="sgo"){const t=$("#st").value.trim(),c=$("#sc").value.trim();if(!t||!c){$("#smsg").style.color="var(--warn)";$("#smsg").textContent="Add the country and your story first.";return}
+stories.unshift({ctry:c,res:$("#sr").value,days:$("#sd").value||"?",prof:$("#sp").value,name:$("#sn").value.trim(),txt:t});store.set("stories",stories);renderStories();$("#smsg").textContent="Thank you! Your story was saved on this device."}};
+renderStories();
+
+// FAQ
+const FAQ=[
+["Which embassy should I apply to?","The embassy of the Schengen country where you will spend the most nights. If equal, the country of first entry."],
+["How early can I apply?","Up to 6 months before your trip and at least 15 calendar days before. Applying 4 to 8 weeks early is a good balance."],
+["Do I need to buy a real plane ticket?","No. A flight reservation or refundable booking is usually enough. Avoid non-refundable tickets before approval."],
+["How much is the visa fee?","€90 for adults, €45 for children 6 to 11, free under 6. Visa centers add a service fee. Rates can change, so verify on the official site."],
+["How long does processing take?","Usually about 15 calendar days. It can extend to 30 or up to 45 days in complex cases."],
+["Do I need travel insurance?","Yes. Minimum €30,000 coverage valid in all Schengen countries for your full stay."],
+["Can I apply if I am unemployed?","Yes, with a sponsor. Provide the sponsor's financial documents, an affidavit of support and proof of your relationship."],
+["What if my visa is refused?","You get a written reason and appeal instructions with a deadline. You may also reapply with better documents that address the reasons."],
+["Can I travel to other Schengen countries?","Yes, a Schengen visa covers all Schengen countries within the validity dates, but your main destination should match your application."],
+["Is my passport valid enough?","It must be valid at least 3 months after you leave, issued within the last 10 years, and have 2 blank pages."],
+["Should I use a travel agent?","It is not required. Never pay for guaranteed approval. Only the embassy decides."],
+["How long can I stay?","Up to 90 days in any 180-day period, unless your visa states fewer days."]];
+$("#faq").innerHTML=`<div class="card"><h2>Common questions</h2><input id="fq" type="search" placeholder="Search, e.g. insurance" style="margin:10px 0"><div id="fl"></div></div>`;
+function rf(){const q=$("#fq").value.toLowerCase();const r=FAQ.filter(x=>(x[0]+x[1]).toLowerCase().includes(q));
+$("#fl").innerHTML=r.length?r.map(x=>`<details><summary>${x[0]}</summary><p>${x[1]}</p></details>`).join(""):`<p style="color:var(--mut)">No match. Try a shorter word like "fee" or "visa".</p>`}
+$("#fq").oninput=rf;rf();
+/* ===== v2 ===== */
+document.head.insertAdjacentHTML("beforeend",`<style>.pre{min-height:150px;font-size:14px}.q{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);cursor:pointer}.q input{width:20px;height:20px;margin-top:2px;accent-color:var(--acc);flex:none}.msg{padding:10px 12px;border-radius:12px;margin:8px 0;white-space:pre-wrap}.me{background:var(--accbg);margin-left:12%}.ai{background:var(--card);border:1px solid var(--line);margin-right:8%}.sm{padding:6px 12px;font-size:14px}</style>`);
+
+// Language (navigation in Tagalog)
+const TL={"Start here":"Magsimula","Step by step":"Mga hakbang","Requirements":"Mga requirement","Approval tips":"Tips para ma-approve","Money & budget":"Pera at budget","Best time & countries":"Pinakamagandang buwan","Readiness quiz":"Handa na ba ako?","Sample letters":"Sample na liham","Experiences":"Karanasan","If refused":"Kung na-deny","Questions":"Mga tanong","Ask AI":"Magtanong sa AI"};
+let LG=store.get("lg","en");
+function nav(){$("#tabs").innerHTML=TABS.map(t=>`<button role="tab" data-t="${t[0]}">${LG==="tl"?TL[t[1]]:t[1]}</button>`).join("");const s=document.querySelector("section.on");if(s)go(s.id)}
+nav();
+$("header").insertAdjacentHTML("beforeend",`<button class="chips sm" id="lg" style="margin-top:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer"></button>`);
+function lgb(){$("#lg").textContent=LG==="tl"?"Language: Tagalog (menu and steps) · Switch to English":"Language: English · Isalin sa Tagalog (menu at hakbang)"}
+lgb();$("#lg").onclick=()=>{LG=LG==="tl"?"en":"tl";store.set("lg",LG);lgb();nav()};
+$("#home .grid").insertAdjacentHTML("beforeend",[["countries","When should I go?","Best months to visit and country-by-country notes."],["ready","Is my file complete?","A 1-minute checklist that shows gaps. Not an official score."],["docs","Need sample letters?","Cover letter, leave letter and affidavit of support."],["refused","What if I get refused?","Appeal, reapply and other options."]].map(t=>`<button class="card tile" data-go="${t[0]}"><b>${t[1]}</b><span>${t[2]}</span></button>`).join(""));
+
+// Best time & countries
+const CT=[["France","May to June, September","Mild weather and long days with fewer crowds than July to August. Lavender fields bloom late June to July.","TLScontact"],["Germany","May to September, December for Christmas markets","Green and warm in summer. December markets are magical but cold.","VFS Global"],["Spain","April to June, September to October","Pleasant temperatures before the extreme July to August heat.","BLS Spain Visa"],["Italy","April to June, September to October","Sunny without peak crowds or prices. Autumn is harvest and food season.","VFS Global"],["Netherlands","Late March to mid-May","Tulip season at Keukenhof and mild weather.","VFS Global"],["Switzerland","June to September, December to March","Hiking and lakes in summer, snow and skiing in winter.","VFS Global"],["Greece","May to June, September","Warm sea and open ferries, cheaper than July to August.","Embassy or its appointed center"],["Portugal","March to June, September to October","Mild weather, blossoms and lower prices than summer.","Embassy or its appointed center"]];
+$("#countries").innerHTML=`<div class="card"><h2>Best time to visit Europe</h2><p style="color:var(--mut);margin:6px 0 0">Overall, the best months are <b>May, June, September and early October</b> (shoulder season). You get comfortable weather, fewer crowds and lower hotel prices than peak summer. It also helps your budget, since a lower cost makes your funds look stronger.</p><ul class="l"><li><b>July to August:</b> hot, crowded and expensive. Visa slots also fill up.</li><li><b>December:</b> Christmas markets, but cold and short days.</li><li><b>January to March:</b> cheapest and quiet, but cold. Good for skiing.</li></ul><div class="note">Apply 4 to 8 weeks before travel. For a May trip, start preparing in February to March.</div></div>
+${CT.map(c=>`<div class="card"><h3>${c[0]}</h3><p style="margin:6px 0"><b>Best months:</b> ${c[1]}</p><p style="margin:0;color:var(--mut)">${c[2]}</p><p style="margin:8px 0 0;font-size:14px"><b>Where to apply:</b> ${c[3]} (confirm on the official site, as centers can change)</p></div>`).join("")}`;
+
+// Readiness quiz
+const Q=[["I have had a stable job or business for at least 1 year.",20,"Build proof of stable work: COE, payslips, business registration."],["My balance is at least 1.5x my estimated trip cost.",20,"Use the budget calculator and build up savings before applying."],["My statements show regular activity for 3 to 6 months with no sudden large deposits.",15,"Wait and let savings build naturally. Avoid last-minute deposits."],["I have an approved leave letter or enrollment certificate.",10,"Get a signed leave letter with exact dates or a school travel approval."],["I have traveled abroad before.",10,"Travel history helps but is not required. Strengthen your other ties."],["My itinerary, flights and hotels all have matching dates.",10,"Make the itinerary consistent and use refundable bookings."],["I have valid insurance with at least €30,000 coverage.",5,"Buy Schengen travel insurance covering your full stay."],["My passport is valid 3+ months after return, under 10 years old, with 2 blank pages.",5,"Renew your passport first if needed."],["I have strong family, property or other ties in the Philippines.",5,"Add proof such as property titles, family records or dependents."]];
+$("#ready").innerHTML=`<div class="card"><h2>Preparation checklist</h2><p style="color:var(--mut);margin:6px 0 10px">Tick what is true for you to find gaps in your file. This is an unofficial self-check based on commonly cited factors, not an embassy score. It cannot predict approval, and every decision is made case by case.</p>${Q.map((q,i)=>`<label class="q"><input type="checkbox" data-q="${i}"><span>${q[0]}</span></label>`).join("")}<div id="qr" class="res" style="margin-top:12px"></div></div>`;
+function qs(){const on=[...document.querySelectorAll("[data-q]")].map(x=>x.checked);let sc=0;Q.forEach((q,i)=>{if(on[i])sc+=q[1]});const gaps=Q.filter((q,i)=>!on[i]);
+const lv=sc>=80?"Strong profile. Double-check your documents and apply.":sc>=55?"Fair profile. Fix the gaps below before you apply.":"Needs work. Build your profile first before paying fees.";
+$("#qr").innerHTML=`Preparation score (unofficial)<big>${sc} / 100</big><b>${lv}</b>${gaps.length?`<ul class="l">${gaps.map(g=>`<li>${g[2]}</li>`).join("")}</ul>`:""}`}
+$("#ready").onchange=qs;qs();
+
+// Sample letters
+const LT=[["Cover letter",`[Date]\n\nThe Visa Section\nEmbassy of [Country] in Manila\n\nSubject: Short-stay Schengen visa application\n\nDear Sir or Madam,\n\nI am [Full name], a Filipino citizen, passport no. [number]. I am applying for a short-stay visa to visit [Country] for tourism from [arrival date] to [departure date].\n\nI plan to visit [cities/places]. My accommodation and itinerary are attached. I work as [position] at [company] since [year], and my employer has approved my leave. My trip will be funded by my savings, as shown in my attached bank documents.\n\nI have strong ties to the Philippines, including my job, family and [property/other]. I will return before my visa expires.\n\nThank you for considering my application.\n\nSincerely,\n[Signature]\n[Full name] · [Contact number] · [Email]`],["Leave letter (from employer)",`[Company letterhead]\n[Date]\n\nTo Whom It May Concern:\n\nThis is to certify that [Full name] is employed with [Company] as [Position] since [date hired], with a monthly salary of PHP [amount].\n\nHe/She is granted approved leave from [start date] to [end date] to travel to [Country]. He/She is expected to resume work on [return-to-work date].\n\nPlease contact us at [phone/email] for verification.\n\n[Name of HR/Manager]\n[Position]\n[Signature]`],["Affidavit of support (sponsor)",`AFFIDAVIT OF SUPPORT AND GUARANTEE\n\nI, [Sponsor name], of legal age, [citizenship], residing at [address], after being sworn, state:\n\n1. I am the [relationship] of [Applicant name].\n2. [Applicant name] will travel to [Country] from [date] to [date].\n3. I will shoulder all expenses for the trip, including flights, accommodation, insurance and daily needs.\n4. I am employed/engaged as [occupation] with an income of PHP [amount] per [month/year]. My supporting documents are attached.\n5. I guarantee that [Applicant name] will return to the Philippines after the trip.\n\nIN WITNESS WHEREOF, I sign this on [date] at [place].\n\n[Signature of sponsor]\n\nSUBSCRIBED AND SWORN before me this [date] at [place]. Notary Public.`]];
+$("#docs").innerHTML=`<div class="card"><h2>Sample letters</h2><p style="color:var(--mut);margin:6px 0 0">Replace everything in [brackets] with your own details. Keep it honest, short and consistent with your other documents.</p></div>${LT.map((l,i)=>`<div class="card"><h3>${l[0]}</h3><textarea class="pre" id="lt${i}" rows="12" style="margin:10px 0">${l[1]}</textarea><button class="btn sm" data-cp="${i}">Copy text</button> <span id="cm${i}" style="color:var(--ok)"></span></div>`).join("")}`;
+$("#docs").onclick=async e=>{const b=e.target.closest("[data-cp]");if(!b)return;const i=b.dataset.cp,t=$("#lt"+i);try{await navigator.clipboard.writeText(t.value);$("#cm"+i).textContent="Copied!"}catch(x){t.select();$("#cm"+i).textContent="Text selected. Press copy on your keyboard."}};
+
+// If refused
+$("#refused").innerHTML=`<div class="card"><h2>If your visa is refused</h2><p style="color:var(--mut);margin:6px 0 0">A refusal is not the end. Many applicants are approved on a later try after fixing the problem.</p></div>
+<div class="card"><h3>What to do first</h3><ol class="l"><li>Read the refusal form. It lists the reasons by code and explains how to appeal.</li><li>Note the appeal deadline in the letter. It is often short (about 15 to 30 days, depending on the country).</li><li>Match each reason to a fix: more savings history, clearer itinerary, stronger work proof, valid insurance.</li></ol></div>
+<div class="card"><h3>Your options</h3><ul class="l"><li><b>Appeal or remonstration:</b> request a review from the embassy or authority named in the letter. Best if you think a mistake was made or you can prove something they missed.</li><li><b>Reapply:</b> usually the faster route. Wait until you have fixed the reasons, then include a short letter addressing them.</li><li><b>Shorter, simpler trip:</b> one country with a clear plan is easier to approve.</li><li><b>Add a sponsor or invitation:</b> with full documents from a relative or friend in Europe.</li><li><b>Apply through a different destination:</b> only if it truly is your main destination. You must declare past refusals on the form.</li><li><b>Visa-free or easier destinations:</b> while building travel history, consider nearby places with simpler rules for Philippine passport holders, such as Hong Kong, Thailand, Singapore or Vietnam. Rules change, so verify first.</li></ul></div>
+<div class="note">Always declare previous refusals honestly. Hiding them can lead to a longer ban. Avoid anyone who promises guaranteed approval for a fee.</div>`;
+
+// Stories: shared and moderated
+let DB=null,ADM=false,AP=[],PE=[];
+(async()=>{try{DB=await claude.use("db");const u=await claude.use("user");ADM=!!(u&&u.canEdit());if(DB){DB.collection("approved").onSnapshot(s=>{AP=s.docs.map(d=>({id:d.id,...d.data()}));renderStories()});if(ADM)DB.collection("pending").onSnapshot(s=>{PE=s.docs.map(d=>({id:d.id,...d.data()}));renderStories()})}}catch(e){DB=null}})();
+renderStories=function(){const all=[...AP.map(s=>({...s,sh:1})),...stories],L=all.filter(s=>filt==="all"||s.res===filt);
+const card=(s,adm)=>`<div class="card"><span class="badge ${s.res==="Approved"?"b-ok":"b-no"}">${esc(s.res)}</span> <b>${esc(s.ctry)}</b> · ${esc(s.days)} days · ${esc(s.prof)}<p style="margin:8px 0 0">${esc(s.txt)}</p><small style="color:var(--mut)">${esc(s.name||"Anonymous")}${!s.sh&&!adm?" · saved on this device only":""}</small>${adm?`<div style="margin-top:8px"><button class="btn sm" data-ok="${s.id}">Approve</button> <button class="btn sm" style="background:var(--warn)" data-no="${s.id}">Delete</button></div>`:""}</div>`;
+$("#stories").innerHTML=`<div class="card"><h2>Experiences from other applicants</h2><p style="color:var(--mut);margin:6px 0 0">Real stories from people who applied. All shared stories are reviewed before they appear. Please do not post passport numbers or private details.</p></div>
+${ADM&&PE.length?`<div class="card" style="border-color:var(--warn)"><h3>Waiting for review (${PE.length})</h3></div>${PE.map(s=>card(s,1)).join("")}`:""}
+<div class="chips">${[["all","All"],["Approved","Approved"],["Refused","Refused"]].map(x=>`<button data-f="${x[0]}" class="${filt===x[0]?"on":""}">${x[1]}</button>`).join("")}</div>
+${L.length?L.map(s=>card(s,0)).join(""):`<div class="card" style="text-align:center;color:var(--mut)">No stories yet. Be the first to share yours below.</div>`}
+<div class="card"><h3>Share your experience</h3><div class="row"><div class="f"><label>Country applied to</label><input id="sc" placeholder="e.g. France"></div><div class="f"><label>Result</label><select id="sr"><option>Approved</option><option>Refused</option></select></div></div><div class="row"><div class="f"><label>Days to get result</label><input id="sd" type="number" placeholder="15"></div><div class="f"><label>Your situation</label><select id="sp"><option>Employed</option><option>Self-employed</option><option>Student</option><option>Dependent</option></select></div></div><div class="f"><label>Your name (optional)</label><input id="sn" placeholder="Anonymous"></div><div class="f"><label>What helped or hurt your application?</label><textarea id="st" rows="4"></textarea></div><button class="btn" id="sgo">Post my story</button><p id="smsg" style="color:var(--ok)"></p></div>`};
+$("#stories").onclick=async e=>{const t=e.target.closest("button");if(!t)return;if(t.dataset.f){filt=t.dataset.f;renderStories();return}
+try{if(t.dataset.ok){const s=PE.find(x=>x.id===t.dataset.ok),{id,...d}=s;await DB.collection("approved").doc(id).set(d);await DB.collection("pending").doc(id).delete();return}
+if(t.dataset.no){await DB.collection("pending").doc(t.dataset.no).delete();return}}catch(x){return}
+if(t.id==="sgo"){const tx=$("#st").value.trim(),c=$("#sc").value.trim(),m=$("#smsg");if(!tx||!c){m.style.color="var(--warn)";m.textContent="Add the country and your story first.";return}
+const o={ctry:c,res:$("#sr").value,days:$("#sd").value||"?",prof:$("#sp").value,name:$("#sn").value.trim(),txt:tx};
+try{if(DB){await DB.collection("pending").doc("s"+Date.now()+Math.random().toString(36).slice(2,6)).set(o);renderStories();$("#smsg").textContent="Thank you! Your story was sent for review."}else{stories.unshift(o);store.set("stories",stories);renderStories();$("#smsg").textContent="Saved on this device. Sign in to claude.ai to share with everyone."}}catch(x){m.style.color="var(--warn)";m.textContent="Could not post. Please try again."}}};
+renderStories();
+
+// AI assistant
+let CH=[];
+function rc(){$("#ask").innerHTML=`<div class="card"><h2>${LG==="tl"?"Magtanong sa AI":"Ask the AI assistant"}</h2><p style="color:var(--mut);margin:6px 0 10px">${LG==="tl"?"Magtanong tungkol sa Schengen visa para sa Philippine passport. Sasagot sa Tagalog.":"Ask anything about Schengen visas for Philippine passport holders. Answers are general guidance, so confirm with the embassy. Your question is sent to an AI service (see Privacy notice)."}</p><div id="cl">${CH.map(m=>`<div class="msg ${m.r==="user"?"me":"ai"}"></div>`).join("")}</div><div class="f" style="margin-top:10px"><textarea id="ci" rows="2" placeholder="${LG==="tl"?"Hal. Magkano ang dapat na laman ng bank account?":"e.g. How much should be in my bank account?"}"></textarea></div><button class="btn" id="cs">${LG==="tl"?"Ipadala":"Send"}</button> <span id="ce" style="color:var(--warn)"></span></div>`;document.querySelectorAll("#cl .msg").forEach((d,i)=>d.textContent=CH[i].c)}
+rc();$("#lg").addEventListener("click",rc);
+$("#ask").onclick=async e=>{if(e.target.id!=="cs")return;const q=$("#ci").value.trim();if(!q)return;CH.push({r:"user",c:q});CH.push({r:"ai",c:"..."});rc();
+try{const sp=await claude.use("sample");if(!sp)throw{code:"na"};const hist=CH.slice(0,-1).map(m=>(m.r==="user"?"Applicant: ":"Assistant: ")+m.c).join("\n");
+const r=await sp(`You are a friendly assistant helping Philippine passport holders apply for a Schengen visa. Be accurate and concise (under 150 words), plain language, use short lists when helpful. Do not guarantee approval; remind them to confirm fees and rules on the official embassy or visa center site. Reply in ${LG==="tl"?"Tagalog":"the language the applicant used"}.\n\nConversation:\n${hist}\nAssistant:`,{cache:false,onText:({text})=>{CH[CH.length-1].c=text;document.querySelectorAll("#cl .msg")[CH.length-1].textContent=text}});CH[CH.length-1].c=r.text;rc()}
+catch(x){CH.pop();CH.pop();rc();$("#ce").textContent="The assistant is only available when you open this page signed in on claude.ai."}};
+
+/* ===== v3 ===== */
+document.head.insertAdjacentHTML("beforeend",`<style>a.btn{display:inline-block;text-decoration:none;margin-top:8px}a{color:var(--acc)}.upd{color:var(--mut);font-size:13px;margin:10px 0 0}</style>`);
+$("header").insertAdjacentHTML("beforeend",`<p class="upd">Last reviewed: 15 October 2026. Fees, centers and rules change, so confirm on the official site.</p>`);
+
+// Where to book, by country
+const VF="https://visa.vfsglobal.com/phl/en/";
+const BK={France:["TLScontact (Manila and Cebu)","https://visas-fr.tlscontact.com/country/ph/vac/phMNL2fr?lang=en-us"],Spain:["BLS International (Manila)","https://ph.blsspainvisa.com/"],Italy:["VFS Global (Manila and Cebu)","https://visa.vfsglobal.com/phl/en/ita/book-an-appointment"],Greece:["GVC World, Greece Visa Application Center (Manila)","https://ph-gr.gvcworld.eu/en/node/262"],Portugal:["GVC World. The Greece center also accepts Portugal applications.","https://ph-gr.gvcworld.eu/en/node/262"]};
+"Austria,Belgium,Croatia,Denmark,Finland,Germany,Hungary,Lithuania,Malta,Netherlands,Norway,Poland,Switzerland,Liechtenstein".split(",").forEach(c=>BK[c]=["VFS Global (Manila)",VF]);
+const ALL="Austria,Belgium,Bulgaria,Croatia,Cyprus,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Italy,Latvia,Liechtenstein,Lithuania,Luxembourg,Malta,Netherlands,Norway,Poland,Portugal,Romania,Slovakia,Slovenia,Spain,Sweden,Switzerland".split(",");
+$("#countries").insertAdjacentHTML("afterbegin",`<div class="card"><h2>Where do I book my appointment?</h2><p style="color:var(--mut);margin:6px 0 10px">Choose your main destination to see the booking link.</p><select id="bk"><option value="">Select a country</option>${ALL.map(c=>`<option>${c}</option>`).join("")}</select><div id="bkr"></div></div>`);
+$("#bk").onchange=e=>{const c=e.target.value,b=BK[c];$("#bkr").innerHTML=!c?"":b?`<p style="margin:12px 0 0"><b>${c}</b> applications in the Philippines go through <b>${b[0]}</b>.${b[1]===VF?` On the VFS Philippines site, choose ${c} as your destination after you log in.`:""}${c==="Switzerland"||c==="Liechtenstein"?" Older Swiss embassy notices mention TLScontact, so confirm on the Swiss embassy website.":""}</p><a class="btn" href="${b[1]}" target="_blank" rel="noopener">Open booking page</a>`:`<div class="note">I could not confirm the official booking center for ${c}. Search for "Embassy of ${c} Manila visa" and use the link on the embassy's own website. Some countries are handled by another country's embassy.</div>`};
+$("#process .step:nth-of-type(3)").insertAdjacentHTML("beforeend",`<p><a href="#" data-go="countries">Find your booking link</a></p>`);
+$("#process").onclick=e=>{const b=e.target.closest("[data-go]");if(b){e.preventDefault();go(b.dataset.go)}};
+
+// Tagalog for the step-by-step guide
+const ST=[["Pumili ng pangunahing destinasyon","Mag-apply sa bansang pinakamatagal mong pananatilihan. Kung pantay ang araw, sa bansang una mong papasukan. Mag-apply sa embahada nito o sa opisyal na visa center."],["Ihanda ang mga dokumento","Ihanda ang passport, litrato, patunay ng kita at ipon, travel insurance, itinerary at mga civil document. Gamitin ang tab na Requirements."],["Mag-book ng appointment","Gumawa ng account sa portal ng visa center o embahada at pumili ng slot. Mabilis maubos ang slot sa peak season, kaya madalas mag-check. Refundable na booking lang muna ang gamitin."],["Punan ang form at bayaran ang fee","Sagutan nang tapat ang Schengen form at tiyaking tugma sa mga dokumento. Visa fee: €90 (adult), €45 (6 hanggang 11 taong gulang), libre (wala pang 6), may hiwalay na service fee."],["Pumunta sa appointment","Dalhin ang orihinal at photocopy. Kukunan ng fingerprints at litrato. Sagutin nang maikli at totoo ang mga tanong."],["Hintayin ang desisyon","Karaniwang 15 araw, minsan 30 hanggang 45. Huwag bumili ng non-refundable na ticket hangga't wala pang visa."],["Kunin ang passport","Suriin agad ang visa sticker: pangalan, petsa, bilang ng entry at araw. Ipaalam agad kung may mali."],["Bumiyahe","Dalhin ang return ticket, insurance, hotel booking, patunay ng pondo at employment documents."]];
+const P0=$("#process").innerHTML;
+function rp(){if(LG==="tl"){$("#process").innerHTML=`<div class="card"><h2>Mula simula hanggang approved na visa</h2><p style="color:var(--mut);margin:6px 0 16px">Walong hakbang. Karaniwang 4 hanggang 10 linggo.</p>${ST.map((s,i)=>`<div class="step" data-n="${i+1}"><h3>${s[0]}</h3><p>${s[1]}</p>${i===2?`<p><a href="#" data-go="countries">Hanapin ang booking link</a></p>`:""}</div>`).join("")}</div>`}else{$("#process").innerHTML=P0}}
+$("#lg").addEventListener("click",rp);rp();
+
+// Experiences from public blogs
+const BLOGS=`<div class="card"><h3>More from public blogs</h3><p style="color:var(--mut);margin:6px 0">Personal accounts by individual writers, not official advice. Their experiences may differ from yours.</p><ul class="l"><li><a href="https://teachercharley.wordpress.com/2024/04/05/my-first-sponsored-tourist-schengen-visa-application-for-france-experience-and-tips-as-a-filipino-passport-holder-tlscontact-payment-issue/" target="_blank" rel="noopener">A Filipino teacher's DIY, sponsored France application through TLScontact</a>, including a payment issue she ran into.</li><li><a href="https://iamaileen.com/france-schengen-visa-philippines/" target="_blank" rel="noopener">A step-by-step France application guide for tourists</a>, from booking at TLScontact to collecting the result.</li></ul><p style="margin:8px 0 0;font-size:14px">Common thread: book early, since last-minute slots are hard to find, and expect about 15 days of processing.</p></div>`;
+const _rs=renderStories;renderStories=function(){_rs();$("#stories").insertAdjacentHTML("beforeend",BLOGS)};renderStories();
+
+/* ===== v4 ===== */
+// More countries: best months
+const MC=[["Austria","May to September, December","Mild summers for Vienna and the Alps, Christmas markets in December, skiing from December to March."],["Belgium","April to September","Mild weather for Brussels and Bruges, with long days and outdoor cafes."],["Bulgaria","May to June, September","Pleasant for cities and mountains. The Black Sea is warmest June to August."],["Croatia","May to June, September","Warm sea and fewer crowds, cheaper than July to August."],["Cyprus","April to June, October to November","Warm without the intense heat of July to August."],["Czechia","May to September, December","Good for Prague walking tours, with Christmas markets in December."],["Denmark","May to August","Long bright days for Copenhagen. December brings Christmas lights and markets."],["Estonia","June to August, December","Very long summer days in Tallinn, plus a Christmas market in winter."],["Finland","June to August, September to March","Midnight sun in summer, and northern lights from autumn to early spring."],["Hungary","April to June, September to October","Comfortable for Budapest, avoiding the summer heat."],["Iceland","June to August, September to March","Midnight sun and open roads in summer, northern lights in winter."],["Latvia","June to August","Long days and warm weather for Riga and the coast."],["Liechtenstein","June to September, December to March","Hiking in summer and skiing in winter."],["Lithuania","May to September","Pleasant for Vilnius and the Baltic coast."],["Luxembourg","May to September","Mild weather for walking the old town and valleys."],["Malta","April to June, September to October","Warm and sunny without the peak July to August heat."],["Norway","June to August, October to March","Fjords and midnight sun in summer. Northern lights in autumn and winter."],["Poland","May to September, December","Good for Krakow and Warsaw, with Christmas markets in December."],["Romania","May to June, September","Pleasant for Transylvania and the Carpathians."],["Slovakia","May to September, winter for skiing","Good for Bratislava and the High Tatras."],["Slovenia","May to September","Lake Bled, caves and Ljubljana are at their best in warm months."],["Sweden","June to August, December","Long summer days in Stockholm and festive markets in December."]];
+$("#countries").insertAdjacentHTML("beforeend",MC.map(c=>`<div class="card"><h3>${c[0]}</h3><p style="margin:6px 0"><b>Best months:</b> ${c[1]}</p><p style="margin:0;color:var(--mut)">${c[2]}</p><p style="margin:8px 0 0;font-size:14px"><b>Where to apply:</b> ${BK[c[0]]?BK[c[0]][0]:"Check the embassy website (use the selector above)"}</p></div>`).join(""));
+
+// Privacy notice
+$("main").insertAdjacentHTML("beforeend",`<section id="privacy"><div class="card"><h2>Privacy notice</h2><p style="color:var(--mut);margin:6px 0 0">Last updated: 15 October 2026.</p></div>
+<div class="card"><h3>Who we are</h3><p style="margin:6px 0 0">This guide is an independent project run by its owner. It is an independent guide and is not affiliated with any embassy, consulate or visa application center.</p></div>
+<div class="card"><h3>What we collect and why</h3><p style="margin:6px 0 0">This basic version does not collect personal data and has no accounts. Your checklist progress, language choice and quiz answers stay in your own browser. </p></div>
+<div class="card"><h3>Please do not post</h3><p style="margin:6px 0 0">Passport numbers, birth dates, addresses, phone numbers or other private details of yourself or others. We may edit or remove stories that include them.</p></div>
+<div class="card"><h3>How long we keep it and your rights</h3><p style="margin:6px 0 0">Stories are kept until you ask us to remove them. Under the Data Privacy Act of 2012 you may ask to access, correct or delete your data, or withdraw your consent, by contacting the site owner. Contact details will be added here before any personal data is collected. You may also complain to the National Privacy Commission (privacy.gov.ph).</p></div>
+<div class="card"><h3>Disclaimer</h3><p style="margin:6px 0 0">This guide is general information. Rules, fees and centers change, and every visa decision is made by the embassy.</p></div></section>`);
+document.querySelector("main .foot").insertAdjacentHTML("afterend",`<p class="foot"><a href="#" data-go="privacy">Privacy notice</a></p>`);
+document.addEventListener("click",e=>{const b=e.target.closest("[data-go]");if(b&&b.closest(".foot")){e.preventDefault();go(b.dataset.go)}});
+const _r2=renderStories;renderStories=function(){_r2();const g=$("#sgo");if(g)g.insertAdjacentHTML("beforebegin",`<p style="font-size:14px;color:var(--mut);margin:0 0 10px">By posting, you agree that your story, and your name if you enter one, may be shown publicly after review. See the Privacy notice at the bottom of the page.</p>`)};renderStories();
+
+/* ===== v5 insurance ===== */
+const INS=[["Allied Bankers Insurance Corp","https://www.alliedbankers.com.ph/"],["Assist-Card","https://www.assistcard.com/ph"],["AXA Philippines","https://www.axa.com.ph/",1],["BPI MS Insurance","https://bpims.com/"],["Chubb","https://www.chubbtravelinsurance.com.ph/"],["Cocogen Insurance","https://www.cocogen.com/",1],["Etiqa","https://www.etiqa.com.ph/"],["Fortune General Insurance Corp.","https://fgeninsurance.com/",1],["FPG Insurance","https://www.fpgins.com/",1],["Liberty Insurance","https://www.libertyinsurance.com.ph/"],["MAA General Assurance (premium plan only)","https://maa.com.ph/"],["Malayan Insurance Company","https://www.malayan.com/",1],["Mercantile Insurance Company","https://mercantile.ph/",1],["MPioneer","https://mpioneer.com.ph/"],["Oona (formerly MAPFRE Insular)","https://myoona.ph/travel-insurance/",1],["Oriental Assurance Corp.","https://orientalassurance.com/"],["Pacific Cross Insurance","https://www.pacificcross.com.ph/",1],["Paramount Life & General Insurance",""],["PGA Sompo Insurance Corp.","https://www.pgasompo.com.ph/personal"],["Pioneer Insurance and Surety Co.","https://www.pioneer.com.ph/"],["Standard Insurance Co.","https://www.standard-insurance.com/"],["Starr International Insurance Philippines","https://starrcompanies.com/",1],["Visayan Surety and Insurance Corp.",""]];
+TL["Travel insurance"]="Travel insurance";nav();
+$("main").insertAdjacentHTML("beforeend",`<section id="insurance"><div class="card"><h2>Schengen travel insurance in the Philippines</h2><p style="color:var(--mut);margin:6px 0 0">Embassies and visa centers publish lists of Philippine insurers whose policies they accept. Only policies that meet the rules below, from an accepted company, should be bought.</p></div>
+<div class="card"><h3>What your policy must have</h3><ul class="l"><li>Medical coverage of at least €30,000 (about US$50,000).</li><li>Valid in all Schengen countries for your whole stay, with the same dates as your visa application.</li><li>Covers emergency medical care, hospital treatment and repatriation, including return of remains.</li><li>Check that it refunds you if your visa is refused, and keep your refusal letter as proof.</li></ul></div>
+<div class="note">There is no single "official" list. Each embassy or visa center decides which companies it accepts, and lists change. The names below come from lists published by the German embassy (September 2024), the Italian embassy (December 2023) and the Poland visa center. Always check your destination's current list before paying. This is not a recommendation of any company.</div>
+<div class="card"><input id="iq" type="search" placeholder="Search insurer" style="margin-bottom:10px"><p style="font-size:14px;color:var(--mut);margin:0 0 6px">A \"Widely accepted\" tag means the company appeared on all three lists above. A shorter list, such as Poland's, may accept only these.</p><div id="il"></div></div></section>`);
+function ri(){const q=$("#iq").value.toLowerCase();$("#il").innerHTML=INS.filter(i=>i[0].toLowerCase().includes(q)).map(i=>`<label class="chk" style="cursor:default"><span style="flex:1">${i[0]}${i[2]?` <span class="badge b-ok">Widely accepted</span>`:""}</span>${i[1]?`<a href="${i[1]}" target="_blank" rel="noopener">Website</a>`:""}</label>`).join("")||`<p style="color:var(--mut)">No match. Try a shorter name.</p>`}
+$("#iq").oninput=ri;ri();
+
+/* basic version */
+renderStories=function(){$("#stories").innerHTML=`<div class="card"><h2>Experiences from other applicants</h2><p style="color:var(--mut);margin:6px 0 0">Real stories help you know what to expect. Sharing your own story is not available yet.</p></div>${BLOGS}`};renderStories();
+
+go("home");
+</script>
+</body>
+</html>
